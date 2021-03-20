@@ -1,0 +1,228 @@
+@media screen and (min-width: 764px){
+body {
+}
+
+header{
+    margin-left: 35%;
+    font-size: 40px;
+    color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+#linha-horizontal {
+    margin-left: 8%;
+    width: 1000px;
+    border: 4px solid #3f48cc;
+}
+
+section li{
+    font-size: 30px;
+    font-family: 'arial', sans-serif;
+    text-align: justify;
+}
+
+#menu{
+    width: 30%;
+    height: 4900px;
+    background-color: #66B2FF;
+    float:left;
+    text-align: center;
+}
+
+aside#menu a{
+    font-size: 35px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-decoration: none;
+}
+
+aside#menu img{
+    width: 100%;
+    height: auto;
+}
+
+.controles{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+.controles img{
+    align-items: center;
+    display: inline;
+    padding: 20px;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+img#acender:hover{
+    border-radius: 50%;
+    background-color: yellow;
+    transition: 0.8s;
+}
+
+img#escurecer:hover{
+    border-radius: 50%;
+    background-color: gray;
+    transition: 0.8s;
+}
+
+section{
+    margin-left: 35%;
+    margin-right: 3%;
+}
+
+section h2{
+    font-size: 40px;
+    color: #00BFFF;
+    text-align: center;
+
+}
+
+section h3{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+/*LOGOS*/
+
+#form{
+    margin: auto;
+}
+#form p{
+    text-align: center;
+}
+/* #form img{
+    padding-left: 300px;
+} */
+/* #exp img{
+    padding-left: 310px;
+} */
+#exp p{
+    text-align: center;
+}
+/* #atvex img{
+    padding-left: 310px;
+} */
+#atvex p{
+    text-align: center;
+}
+section img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+section p{
+    font-size: 30px;
+    font-family: 'arial', sans-serif;
+    text-align: justify;
+}
+
+#formacao{
+    font-size: 30px;
+    font-family: 'arial', sans-serif;
+    text-align: justify-all;
+    margin-top: 8%;
+}
+
+#cont{
+    text-align: center;
+}
+#cont img{
+    height: 120px;
+    width: auto;
+    
+}
+#cont p{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+#cont a{
+    text-decoration: none;
+}
+
+aside a:hover{
+    color: white;
+    font-size: 250%;
+}
+
+.imgcontato{
+    display: inline-block;
+}
+
+#contatos{
+    text-align: center;
+}
+
+/*ETAPAS DO PROJETO*/
+/*EFEITO NA FOTO*/
+.foto_sem_mouse{
+    width: 100%;
+    height: auto;
+    transition: 0.8s;
+}
+
+.foto_com_mouse{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    transition: 0.8s;
+}
+
+/*MODO ESCURO E CLARO*/
+.escuro{
+    background-color:#55695a;
+    color: #a7c7b5;
+    transition: 0.8s;
+}
+
+.escuro h1{
+    color: #334535;
+    transition: 0.8s;
+}
+
+.escuro h2{
+    color: #6e927c;
+    transition: 0.8s;
+}
+
+.escuro #menu{
+    background-color: #334535;
+    transition: 0.8s;
+}
+
+.escuro #menu a{
+    color: #6e927c;
+    transition: 0.8s;
+}
+
+.escuro #menu a:hover{
+    color: #84fa84;
+}
+
+.escuro #linha-horizontal {
+    margin-left: 8%;
+    width: 1000px;
+    border: 4px solid #334535;
+    transition: 0.8s;
+}
+
+.claro{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+}
